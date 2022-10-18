@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+    font-family: "quicksand", sans-serif;
+}
+
+#page-logo a{
+    color: coral;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "oleo script";
+    text-shadow: 1px 1px 2px black;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    position: relative;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 35px 0 0;
+}
+
+header ul li{
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: black;
+    padding: 12px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+header ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+/*                    ........MAIN........                 */
+
+
+#general{
+    background-color: rgb(245, 245, 245);
+}
+
+
+#general h1{
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: rgb(0, 152, 218);
+    margin: 0px auto 50px auto;
+    padding-top: 40px;
+}
+
+#general h3{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(68,68,68);
+    margin: 50px auto 100px auto;
+    padding: 40px;
+}
+
+
+#expertise h1{
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    color: rgb(0, 152, 218);
+}
+
+#expertise h3{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(68,68,68);
+}
+
+#content{
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    margin: 24px auto;
+}
+
+#content .box{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(350px - 20px);
+    background: rgb(245, 245, 245);
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#content .box .icon{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto;
+    border-radius: 50%;
+}
+
+#content .box .text{
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+
+#other{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.other-img{
+    z-index: 1;
+    height: 80%;
+}
+
+.other-img img{
+    display: block;
+    width: 400px;
+    margin: auto -160px auto 14px;
+    border-radius: 10px;
+}
+
+.other-content{
+    width: 65%;
+    height: 100%;
+    min-height: 200px;
+    padding: 5% 0px;
+    background-color: rgb(99, 98, 98);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.other-content h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.other-content p{
+    margin: 0 48px;
+    color: white;
+    font-size: 24px;
+}
+
+
+.other-content-2{
+    width: 65%;
+    height: 100%;
+    min-height: 200px;
+    padding: 5% 0px;
+    background-color: rgb(18, 151, 207);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.other-content-2 h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.other-content-2 p{
+    margin: 0 48px;
+    color: white;
+    font-size: 24px;
+}
+
+.other-img-2{
+    z-index: 1;
+    height: 80%;
+}
+
+
+.other-img-2 img{
+    display: block;
+    width: 400px;
+    margin: auto 14px auto -160px;
+    border-radius: 10px;
+}
+
+
+
+
+/*                    ........FOOTER........                 */
+
+#footer{
+    background: linear-gradient(70deg,rgb(24,24,24),rgb(25,29,29));
+    padding: 36px 0;
+    margin-top: 30px;
+}
+
+#footer h2{
+    color: white;
+    text-align: center;
+}
+
+#footer h3{
+    color: white;
+    text-align: center;
+}
+
+#footer p{
+    color: white;
+    text-align: center;
+}
